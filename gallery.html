@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="styles.css">
+
+<!-- Internal CSS -->
+<style>
+* {
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav {
+    background-color: #FF0000;
+    overflow:auto;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:end;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="food-.html">Food Table</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Add corresponding sections here -->
+    <section id="hero">
+        <h4>Buy-in-offer</h4>
+        <h2>Supreme Dishes</h2>
+        <h1>Made to Order</h1>
+        <p>Enjoy the dining adventures for all, everyone!</p>
+        <button>Order Now!</button>
+        <!-- Home content -->
+    </section>
+
+
+<!-- Gallaery Section -->
+<section id="gallery">
+    <h1>Categories</h1>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="images/chinese-img.jpg" alt="chinese">
+            </div>
+            <div class="slide">
+                <img src="images/rice-stew.jpg" alt="rice">
+            </div>
+            <div class="slide">
+                <img src="images/swallow.jpg" alt="swallow">
+            </div>
+            <div class="slide">
+                <img src="images/lady-kitchen.jpg" alt="lady">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>

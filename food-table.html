@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="styles.css">
+
+<!-- Internal CSS -->
+<style>
+* {
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav {
+    background-color: #FF0000;
+    overflow:auto;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:end;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+section {
+    padding: 20px;
+}
+table {
+        width: 80%; /* Adjust the width as needed */
+        height: 400px; /* Adjust the height as needed */
+        border-collapse: collapse; /* Optional: Collapses borders into a single border */
+        margin: 20px auto; /* Centers the table horizontally and adds top/bottom margin */
+    }
+    /* Styling for table borders */
+    th, td {
+        border: 1px solid #000; /* Adds a border to table cells */
+        padding: 10px; /* Adds padding to table cells */
+        text-align: center; /* Centers text within table cells */
+    }
+    /* Optional: Add background color to header */
+    th {
+        
+        background-color: #FF0000;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="food-table.html">Food Table</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Add corresponding sections here -->
+    <section id="hero">
+        <h4>Buy-in-offer</h4>
+        <h2>Supreme Dishes</h2>
+        <h1>Made to Order</h1>
+        <p>Enjoy the dining adventures for all, everyone!</p>
+        <button>Order Now!</button>
+        <!-- Home content -->
+    </section>
+
+    <!-- Table Section -->
+    <table border="1">
+        <img src="images/food-logo.png" width="90" height="50" alt="">
+        <tr>
+            <th>Awesome Prices / Discount</th>
+            <th>Discounted Price</th>
+            <th>Normal Price</th>
+        </tr>
+        <tr>
+            <td>Snacks Ice Cream and More</td>
+            <td>29,500</td>
+            <td>37,000</td>
+        </tr>
+        <tr>
+            <td>Group Dinner; Northern Food</td>
+            <td>19,800</td>
+            <td>25,000</td>
+        </tr>
+        <tr>
+            <td>Fried Plantain, Fiesta Rice and Stir Fried Spaghetti</td>
+            <td>12,500</td>
+            <td>15,700</td>
+        </tr>
+        <tr>
+            <td>Amala with Ewedu and Gbegiri</td>
+            <td>7,400</td>
+            <td>9,300</td>
+        </tr>
+        <tr>
+            <td>Special Fried Rice</td>
+            <td>20,500</td>
+            <td>20,500</td>
+        </tr>
+        <tr>
+            <td>Village Rice</td>
+            <td>4,200</td>
+            <td>5,100</td>
+        </tr>
+        <tr>
+            <td>Jollof Rice</td>
+            <td>2,500</td>
+            <td>3,500</td>
+        </tr>
+    </table>
+    
