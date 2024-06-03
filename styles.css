@@ -6,7 +6,7 @@
 }
 /* Home page */
 #hero {
-    background-image: url("images/swallow.jpg");
+    background-image: url("swallow.jpg");
     height: 65vh;
     width: 100%;
     background-size: cover;
